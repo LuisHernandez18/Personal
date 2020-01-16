@@ -1,0 +1,24 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="procmail.php" id="form" method="post">
+        Your Name<input type="text" name="username"><br>
+        Your Email<input type="text" name="useremail"><br>
+        Subject
+        <select name="mylist" id="mylist">
+            <option value="WEB SERVICES">WEB SERVICES</option>
+            <option value="PRICES">PRICES</option>
+        </select>
+        Message<input type="textarea" name="usermessage">
+        <input type="submit" class="button" value="Submit">
+    </form>
+</body>
+</html>
